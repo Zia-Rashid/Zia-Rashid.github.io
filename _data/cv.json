@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
+    "name": "Kamdin Bembry",
     "email": "none@example.org",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://Zia-Rashid.github.io",
+    "summary": "Cybersecurity student focusing on Vulnerability Research and Security Engineering in compilers and browsers.\nCTF player with Squid Proxy lovers",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Rochester",
       "countryCode": "US",
       "region": ""
     },
