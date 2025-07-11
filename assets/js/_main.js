@@ -2,14 +2,14 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", "cyberpunk", or
+// Determine the expected state of the theme toggle, which can be "dark", "light", "dark_magic_girl", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "cyberpunk" && themeSetting != "system") ? "system" : themeSetting;
+  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "dark_magic_girl" && themeSetting != "system") ? "system" : themeSetting;
 };
 
-// Determine the computed theme, which can be "dark", "light", or "cyberpunk". If the theme setting is
+// Determine the computed theme, which can be "dark", "light", or "dark_magic_girl". If the theme setting is
 // "system", the computed theme is determined based on the user's system preference.
 let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
@@ -35,8 +35,8 @@ let setTheme = (theme) => {
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
     $("#theme-icon").removeClass("fa-sun fa-palette").addClass("fa-moon");
-  } else if (use_theme === "cyberpunk") {
-    $("html").attr("data-theme", "cyberpunk");
+  } else if (use_theme === "dark_magic_girl") {
+    $("html").attr("data-theme", "dark_magic_girl");
     $("#theme-icon").removeClass("fa-sun fa-moon").addClass("fa-palette");
   } else {
     // Default to light theme (no data-theme attribute)
@@ -45,7 +45,7 @@ let setTheme = (theme) => {
   }
 };
 
-// Toggle the theme manually (cycles through: light -> dark -> cyberpunk -> light)
+// Toggle the theme manually (cycles through: light -> dark -> dark_magic_girl -> light)
 var toggleTheme = () => {
   const current_theme = $("html").attr("data-theme");
   let new_theme;
@@ -53,8 +53,8 @@ var toggleTheme = () => {
   console.log("Current theme:", current_theme); // Debug log
   
   if (current_theme === "dark") {
-    new_theme = "cyberpunk";
-  } else if (current_theme === "cyberpunk") {
+    new_theme = "dark_magic_girl";
+  } else if (current_theme === "dark_magic_girl") {
     new_theme = "light";
   } else {
     // If no theme is set (light) or any other value, go to dark

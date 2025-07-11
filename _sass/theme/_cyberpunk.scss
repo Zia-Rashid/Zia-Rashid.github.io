@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CYBERPUNK THEME
+   dark_magic_girl THEME
    ========================================================================== */
 
 /* Color codes used for the theme */
@@ -8,17 +8,17 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-/* Cyberpunk color scheme variables */
-$cyberpunk-bg              : #091f2c;
-$cyberpunk-main            : #f5b1cc;
-$cyberpunk-caret           : #a288d9;
-$cyberpunk-sub             : #93e8d3;
-$cyberpunk-sub-alt         : #071823;
-$cyberpunk-text            : #a288d9;
-$cyberpunk-error           : #e45c96;
-$cyberpunk-error-extra     : #e45c96;
-$cyberpunk-colorful-error  : #00b398;
-$cyberpunk-colorful-error-extra: #e45c96;
+/* dark_magic_girl color scheme variables */
+$dark_magic_girl-bg              : #091f2c;
+$dark_magic_girl-main            : #f5b1cc;
+$dark_magic_girl-caret           : #a288d9;
+$dark_magic_girl-sub             : #93e8d3;
+$dark_magic_girl-sub-alt         : #071823;
+$dark_magic_girl-text            : #a288d9;
+$dark_magic_girl-error           : #e45c96;
+$dark_magic_girl-error-extra     : #e45c96;
+$dark_magic_girl-colorful-error  : #00b398;
+$dark_magic_girl-colorful-error-extra: #e45c96;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -37,22 +37,22 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Cyberpunk theme for the site */
-html[data-theme="cyberpunk"] {
-    --global-base-color                 : #{$cyberpunk-main};
-    --global-bg-color                   : #{$cyberpunk-bg};
-    --global-footer-bg-color            : #{$cyberpunk-sub-alt};
-    --global-border-color               : #{$cyberpunk-sub};
-    --global-dark-border-color          : #{$cyberpunk-caret};
-    --global-code-background-color      : #{$cyberpunk-sub-alt};
-    --global-code-text-color            : #{$cyberpunk-text};
-    --global-fig-caption-color          : #{$cyberpunk-sub};
-    --global-link-color                 : #{$cyberpunk-caret};
-    --global-link-color-hover           : #{$cyberpunk-main};
-    --global-link-color-visited         : #{$cyberpunk-sub};
-    --global-masthead-link-color        : #{$cyberpunk-text};
-    --global-masthead-link-color-hover  : #{$cyberpunk-main};
-    --global-text-color                 : #{$cyberpunk-text};
-    --global-text-color-light           : #{$cyberpunk-sub};
-    --global-thead-color                : #{$cyberpunk-sub-alt};
+/* dark_magic_girl theme for the site */
+html[data-theme="dark_magic_girl"] {
+    --global-base-color                 : #{$dark_magic_girl-main};
+    --global-bg-color                   : #{$dark_magic_girl-bg};
+    --global-footer-bg-color            : #{$dark_magic_girl-sub-alt};
+    --global-border-color               : #{$dark_magic_girl-sub};
+    --global-dark-border-color          : #{$dark_magic_girl-caret};
+    --global-code-background-color      : #{$dark_magic_girl-sub-alt};
+    --global-code-text-color            : #{$dark_magic_girl-text};
+    --global-fig-caption-color          : #{$dark_magic_girl-sub};
+    --global-link-color                 : #{$dark_magic_girl-caret};
+    --global-link-color-hover           : #{$dark_magic_girl-main};
+    --global-link-color-visited         : #{$dark_magic_girl-sub};
+    --global-masthead-link-color        : #{$dark_magic_girl-text};
+    --global-masthead-link-color-hover  : #{$dark_magic_girl-main};
+    --global-text-color                 : #{$dark_magic_girl-text};
+    --global-text-color-light           : #{$dark_magic_girl-sub};
+    --global-thead-color                : #{$dark_magic_girl-sub-alt};
 } 

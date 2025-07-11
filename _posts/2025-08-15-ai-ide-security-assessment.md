@@ -1,6 +1,6 @@
 ---
-title: 'AI-Integrated IDE Security Assessment: Discovering Vulnerabilities in AI-Powered Development Environments'
-date: 2025-08-15
+title: 'AIIDE Security Assessment: Testing Security of AI-Powered Development Environments'
+date: 2025-07-11
 excerpt: "During my summer research project at Coalfire, I conducted a comprehensive security assessment of AI-integrated development environments, discovering multiple critical vulnerabilities including arbitrary file exfiltration and successful prompt injection attacks."
 tags:
   - security research
@@ -13,7 +13,9 @@ tags:
 
 During my summer research project at Coalfire, I conducted a security assessment of AI-integrated development environments. This research focused on identifying vulnerabilities in AI-powered IDEs that could lead to unauthorized access, data exfiltration, and system compromise, as well as testing their susceptibility to prompt injection with the hopes of being able to interact with the IDE maliciously.
 
-## Research Methodology
+_Full write-up coming soon_
+
+<!-- ## Research Methodology
 
 The assessment involved rigorous testing of AI-integrated development environments for various security vulnerabilities:
 
@@ -47,6 +49,6 @@ These findings highlight the importance of implementing robust security controls
 
 ## Conclusion
 
-This research demonstrates the critical need for security-first design in AI-powered development tools. As AI becomes more integrated into development workflows, ensuring these tools are secure by design is essential for protecting intellectual property and maintaining system integrity.
+This research demonstrates the critical need for security-first design in AI-powered development tools. As AI becomes more integrated into development workflows, ensuring these tools are secure by design is essential for protecting intellectual property and maintaining system integrity. -->
 
 *The full technical report with detailed methodology and proof-of-concept code is available upon request.*
