@@ -23,7 +23,7 @@ I'm interested in understanding core systems functionality and and leveraging th
 
 ## Personal Interests
 
-When I'm not diving into cybersecurity research, I enjoy learning Japanese & Korean, backpacking, snowboarding, wrestling & Brazilian Jiu-Jitsu, archery, spirited driving, and reading books & novels.
+In my free time I enjoy learning Japanese & Korean, backpacking the world, snowboarding, wrestling & Brazilian Jiu-Jitsu, archery, spirited driving, and reading novels.
 
 -----
 
