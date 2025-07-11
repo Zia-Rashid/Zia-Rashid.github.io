@@ -6,14 +6,13 @@
       
       <!-- Left: Site Title -->
       <div class="nav-left">
-        <a class="site-title masthead__menu-item--lg" href="{{ site.baseurl }}/" style="font-weight: bold;">{{ site.title }}</a>
+        <a class="site-title masthead__menu-item--lg" href="{{ '/' | relative_url }}" style="font-weight: bold;">{{ site.title }}</a>
       </div>
 
       <!-- Center: Navigation Links -->
       <ul class="visible-links nav-center" style="display: flex; justify-content: center; align-items: center; gap: 2rem; list-style: none; margin: 0; padding: 0;">
         {% for link in site.data.navigation.main %}
-          {% assign domain = link.url contains 'http' | ternary: '', site.baseurl %}
-          <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
 
