@@ -12,23 +12,23 @@ site_theme               : "default"
 title                    : "Zia's page"
 title_separator          : "-"
 name                     : &name "Kamdin Bembry"
-description              : &description "Cybersecurity student focusing on Vulnerability Research and Security Engineering in compilers and browsers.\nCTF player with Squid Proxy lovers"
+description              : &description "Cybersecurity student specializing in vulnerability research, compiler security, and browser exploitation.\nCTF player with Squid Proxy lovers"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Zia-Rashid/Zia-Rashid.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "C:\Users\kamma\Downloads\\eye-yujin.jpg"
+  avatar           : "files/eye-yujin.jpg"
   name             : "Kamdin Bembry"
-  #pronouns         : # example: "she/her"  
-  bio              : "Cybersecurity student focusing on Vulnerability Research and Security Engineering in compilers and browsers.\nCTF player with Squid Proxy lovers"
-  location         : "New York"
-  education        : "Rochester Institue of Technology"
-  #uri              : # URL
+  pronouns         : # example: "she/her"  
+  bio              : "Cybersecurity student specializing in vulnerability research, compiler security, and browser exploitation.\nCTF player with Squid Proxy lovers"
+  location         : "Syracuse, NY"
+  employer         : "Rochester Institute of Technology"
+  uri              : "https://zia-rashid.github.io"
   email            : "kob4035@rit.edu" 
 
   # # Academic websites
