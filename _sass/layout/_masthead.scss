@@ -71,3 +71,24 @@
     font-weight: 700;
   }
 }
+
+/* Theme toggle button styles */
+#theme-toggle {
+  background: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 0.5em !important;
+  margin: 0 !important;
+  color: var(--global-text-color) !important;
+  font-size: 1.2em !important;
+  transition: color 0.3s ease !important;
+  
+  &:hover {
+    color: var(--global-theme-color) !important;
+  }
+  
+  &:focus {
+    outline: none !important;
+    color: var(--global-theme-color) !important;
+  }
+}
