@@ -119,7 +119,13 @@ $(document).ready(function () {
         });
 
   // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
+  console.log("Setting up theme toggle..."); // Debug log
+  $('#theme-toggle').on('click', function(e) {
+    console.log("Theme toggle clicked!"); // Debug log
+    e.preventDefault();
+    toggleTheme();
+  });
+  console.log("Theme toggle setup complete"); // Debug log
 
   // Enable the sticky footer
   var bumpIt = function () {
