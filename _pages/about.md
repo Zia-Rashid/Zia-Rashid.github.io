@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Kamdin Bembry - Security Researcher"
 author_profile: true
 redirect_from: 
   - /about/
