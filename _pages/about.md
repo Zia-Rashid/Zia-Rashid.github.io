@@ -1,13 +1,11 @@
 ---
 permalink: /
+title: "Welcome to my personal website!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-
-# Welcome to my personal website!
 
 I'm **Kamdin Bembry**, a security researcher and penetration tester currently pursuing a BS/MS in Cybersecurity at Rochester Institute of Technology (RIT). I specialize in vulnerability research, compiler security, and browser exploitation.
 
