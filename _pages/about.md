@@ -27,4 +27,4 @@ In my free time I enjoy learning Japanese & Korean, backpacking the world, snowb
 
 -----
 
-*This website showcases my research, projects, and experiences in the cybersecurity field. Feel free to explore my publications, talks, and portfolio to learn more about my work.*
+*This website showcases my research, projects, and experiences in the cybersecurity field. Feel free to explore my blogs to learn more about my work.*
