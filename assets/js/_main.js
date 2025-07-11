@@ -2,14 +2,14 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
+// Determine the expected state of the theme toggle, which can be "dark", "light", "custom", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "custom" && themeSetting != "system") ? "system" : themeSetting;
 };
 
-// Determine the computed theme, which can be "dark" or "light". If the theme setting is
+// Determine the computed theme, which can be "dark", "light", or "custom". If the theme setting is
 // "system", the computed theme is determined based on the user's system preference.
 let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
@@ -32,17 +32,29 @@ let setTheme = (theme) => {
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
-    $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
+    $("#theme-icon").removeClass("fa-sun fa-palette").addClass("fa-moon");
+  } else if (use_theme === "custom") {
+    $("html").attr("data-theme", "custom");
+    $("#theme-icon").removeClass("fa-sun fa-moon").addClass("fa-palette");
   } else if (use_theme === "light") {
     $("html").removeAttr("data-theme");
-    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+    $("#theme-icon").removeClass("fa-moon fa-palette").addClass("fa-sun");
   }
 };
 
-// Toggle the theme manually
+// Toggle the theme manually (cycles through: light -> dark -> custom -> light)
 var toggleTheme = () => {
   const current_theme = $("html").attr("data-theme");
-  const new_theme = current_theme === "dark" ? "light" : "dark";
+  let new_theme;
+  
+  if (current_theme === "dark") {
+    new_theme = "custom";
+  } else if (current_theme === "custom") {
+    new_theme = "light";
+  } else {
+    new_theme = "dark";
+  }
+  
   localStorage.setItem("theme", new_theme);
   setTheme(new_theme);
 };
