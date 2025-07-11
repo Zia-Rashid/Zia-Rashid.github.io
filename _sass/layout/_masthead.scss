@@ -29,6 +29,11 @@
     @include clearfix;
     padding: 0.5em 1em;
     font-family: $sans-serif-narrow;
+    
+    /* Center the navigation content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -36,6 +41,7 @@
 
     nav {
       z-index: 10;
+      width: 100%;
     }
 
     a {

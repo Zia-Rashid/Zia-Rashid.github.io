@@ -176,6 +176,22 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  
+  /* Center the navigation and add spacing */
+  display: flex;
+  justify-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  @include breakpoint($large) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  @include breakpoint($x-large) {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
 
   a {
     display: block;
@@ -204,6 +220,7 @@
 
   .visible-links {
     display: table;
+    margin: 0 auto; /* Center the links */
 
     li {
       display: table-cell;
