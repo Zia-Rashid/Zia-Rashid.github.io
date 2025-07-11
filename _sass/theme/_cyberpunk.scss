@@ -1,0 +1,58 @@
+/* ==========================================================================
+   CYBERPUNK THEME
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+/* Cyberpunk color scheme variables */
+$cyberpunk-bg              : #091f2c;
+$cyberpunk-main            : #f5b1cc;
+$cyberpunk-caret           : #a288d9;
+$cyberpunk-sub             : #93e8d3;
+$cyberpunk-sub-alt         : #071823;
+$cyberpunk-text            : #a288d9;
+$cyberpunk-error           : #e45c96;
+$cyberpunk-error-extra     : #e45c96;
+$cyberpunk-colorful-error  : #00b398;
+$cyberpunk-colorful-error-extra: #e45c96;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Cyberpunk theme for the site */
+html[data-theme="cyberpunk"] {
+    --global-base-color                 : #{$cyberpunk-main};
+    --global-bg-color                   : #{$cyberpunk-bg};
+    --global-footer-bg-color            : #{$cyberpunk-sub-alt};
+    --global-border-color               : #{$cyberpunk-sub};
+    --global-dark-border-color          : #{$cyberpunk-caret};
+    --global-code-background-color      : #{$cyberpunk-sub-alt};
+    --global-code-text-color            : #{$cyberpunk-text};
+    --global-fig-caption-color          : #{$cyberpunk-sub};
+    --global-link-color                 : #{$cyberpunk-caret};
+    --global-link-color-hover           : #{$cyberpunk-main};
+    --global-link-color-visited         : #{$cyberpunk-sub};
+    --global-masthead-link-color        : #{$cyberpunk-text};
+    --global-masthead-link-color-hover  : #{$cyberpunk-main};
+    --global-text-color                 : #{$cyberpunk-text};
+    --global-text-color-light           : #{$cyberpunk-sub};
+    --global-thead-color                : #{$cyberpunk-sub-alt};
+} 
