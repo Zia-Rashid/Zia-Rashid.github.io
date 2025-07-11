@@ -22,7 +22,7 @@ repository               : "Zia-Rashid/Zia-Rashid.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "files/eye-yujin.jpg"
+  avatar           : "images/eye-yujin.jpg"
   name             : "Kamdin Bembry"
   pronouns         : # example: "she/her"  
   bio              : "Cybersecurity student researcher\nCTF player with Squid Proxy lovers"
