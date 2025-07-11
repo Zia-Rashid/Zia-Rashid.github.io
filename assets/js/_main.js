@@ -30,13 +30,16 @@ let setTheme = (theme) => {
     $("html").attr("data-theme") ||
     browserPref;
 
+  console.log("Setting theme:", use_theme); // Debug log
+
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
     $("#theme-icon").removeClass("fa-sun fa-palette").addClass("fa-moon");
   } else if (use_theme === "cyberpunk") {
     $("html").attr("data-theme", "cyberpunk");
     $("#theme-icon").removeClass("fa-sun fa-moon").addClass("fa-palette");
-  } else if (use_theme === "light") {
+  } else {
+    // Default to light theme (no data-theme attribute)
     $("html").removeAttr("data-theme");
     $("#theme-icon").removeClass("fa-moon fa-palette").addClass("fa-sun");
   }
@@ -47,13 +50,18 @@ var toggleTheme = () => {
   const current_theme = $("html").attr("data-theme");
   let new_theme;
   
+  console.log("Current theme:", current_theme); // Debug log
+  
   if (current_theme === "dark") {
     new_theme = "cyberpunk";
   } else if (current_theme === "cyberpunk") {
     new_theme = "light";
   } else {
+    // If no theme is set (light) or any other value, go to dark
     new_theme = "dark";
   }
+  
+  console.log("New theme:", new_theme); // Debug log
   
   localStorage.setItem("theme", new_theme);
   setTheme(new_theme);
