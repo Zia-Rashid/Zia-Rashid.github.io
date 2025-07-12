@@ -56,3 +56,8 @@ html[data-theme="dark_magic_girl"] {
     --global-text-color-light           : #{$dark_magic_girl-sub};
     --global-thead-color                : #{$dark_magic_girl-sub-alt};
 } 
+
+body, html {
+    font-family: 'Ubuntu Mono', monospace;
+}
+  
