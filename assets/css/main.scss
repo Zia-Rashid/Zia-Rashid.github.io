@@ -41,3 +41,14 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+// Ensure this goes AFTER all theme imports
+html[data-theme="default"],
+html[data-theme="dark"],
+html[data-theme="dark_magic_girl"] {
+  --global-font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+  font-family: var(--global-font-family) !important;
+}
