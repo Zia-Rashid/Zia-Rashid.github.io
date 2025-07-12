@@ -61,7 +61,7 @@ Research & Projects
 Competitions
 ======
 * CTF Competitions: Created and solved various challenges with 'Squid Proxy Lovers' and '[:](SLICES)'
-  * Google CTF 2025: 2nd Place
+  * Google CTF 2025: 3rd Place
   * DEFCON 2025 Quals: 10th Place
 
 * Red/Blue Team Competitions: Competed in defensive cybersecurity events
