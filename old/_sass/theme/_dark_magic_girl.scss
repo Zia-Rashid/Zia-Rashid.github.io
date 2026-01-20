@@ -1,0 +1,63 @@
+/* ==========================================================================
+   dark_magic_girl THEME
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+/* dark_magic_girl color scheme variables */
+$dark_magic_girl-bg              : #091f2c;
+$dark_magic_girl-main            : #f5b1cc;
+$dark_magic_girl-caret           : #a288d9;
+$dark_magic_girl-sub             : #93e8d3;
+$dark_magic_girl-sub-alt         : #071823;
+$dark_magic_girl-text            : #a288d9;
+$dark_magic_girl-error           : #e45c96;
+$dark_magic_girl-error-extra     : #e45c96;
+$dark_magic_girl-colorful-error  : #00b398;
+$dark_magic_girl-colorful-error-extra: #e45c96;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* dark_magic_girl theme for the site */
+html[data-theme="dark_magic_girl"] {
+    --global-base-color                 : #{$dark_magic_girl-main};
+    --global-bg-color                   : #{$dark_magic_girl-bg};
+    --global-footer-bg-color            : #{$dark_magic_girl-sub-alt};
+    --global-border-color               : #{$dark_magic_girl-sub};
+    --global-dark-border-color          : #{$dark_magic_girl-caret};
+    --global-code-background-color      : #{$dark_magic_girl-sub-alt};
+    --global-code-text-color            : #{$dark_magic_girl-text};
+    --global-fig-caption-color          : #{$dark_magic_girl-sub};
+    --global-link-color                 : #{$dark_magic_girl-caret};
+    --global-link-color-hover           : #{$dark_magic_girl-main};
+    --global-link-color-visited         : #{$dark_magic_girl-sub};
+    --global-masthead-link-color        : #{$dark_magic_girl-text};
+    --global-masthead-link-color-hover  : #{$dark_magic_girl-main};
+    --global-text-color                 : #{$dark_magic_girl-text};
+    --global-text-color-light           : #{$dark_magic_girl-sub};
+    --global-thead-color                : #{$dark_magic_girl-sub-alt};
+} 
+
+body, html {
+    font-family: 'Ubuntu Mono', monospace !important;
+}
+  

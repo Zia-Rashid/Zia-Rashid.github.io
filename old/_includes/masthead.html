@@ -1,0 +1,28 @@
+{% include base_path %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <nav id="site-nav" class="greedy-nav" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+      
+      <!-- Left: Site Title -->
+      <div class="nav-left">
+        <a class="site-title masthead__menu-item--lg" href="{{ '/' | relative_url }}" style="font-weight: bold;">{{ site.title }}</a>
+      </div>
+
+      <!-- Center: Navigation Links -->
+      <ul class="visible-links nav-center" style="display: flex; justify-content: center; align-items: center; gap: 2rem; list-style: none; margin: 0; padding: 0;">
+        {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <!-- Optional Right: Theme Toggle -->
+      <div class="nav-right">
+        <a id="theme-toggle" role="button" class="masthead__menu-item" aria-labelledby="theme-icon">
+          <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
+        </a>
+      </div>
+
+    </nav>
+  </div>
+</div>

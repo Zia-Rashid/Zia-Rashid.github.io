@@ -1,0 +1,823 @@
+
+  <!DOCTYPE html>
+  <html lang="en"  >
+  <head>
+  <meta charset="utf-8">
+  
+
+  
+
+  
+
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_bq08450reo';window.REIMU_CONFIG.clipboard_tips = {"success":"copy success(*^▽^*)","fail":"copy failed (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"Naup"}};window.REIMU_CONFIG.code_block = {"expand":true};</script>
+  
+  <title>
+    
+    Kamdin Bembry&#39;s Blog
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
+  
+    <link rel="preload" href="//at.alicdn.com/t/c/font_4552607_bq08450reo.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+  
+    
+<link rel="stylesheet" href="/css/loader.css">
+
+  
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Kamdin Bembry&#39;s Blog">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Kamdin Bembry&#39;s Blog">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/banner.webp">
+<meta property="article:author" content="Kamdin Bembry">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/banner.webp">
+  
+  
+    <link rel="alternate" href="/atom.xml" title="Kamdin Bembry's Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/images/fav.ico">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preload" href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  
+  
+  
+    
+<script src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script>
+
+  
+  
+    
+<link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css">
+
+  
+  
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.1.1"></head>
+
+  <body>
+    
+  <div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi">
+        
+          <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+           M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg>
+        
+      </div>
+      <div class="loading-word">Loading...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script>
+
+<div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+
+
+    <div id="container">
+      <div id="wrap">
+        <div id="header-nav">
+  <nav id="main-nav">
+    
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+            &#xe62b;
+          </div>
+          <a class="main-nav-link" href="/">Home</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+            &#xe62b;
+          </div>
+          <a class="main-nav-link" href="/archives">Archives</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+            &#xe62b;
+          </div>
+          <a class="main-nav-link" href="/about">About</a>
+        </span>
+      
+    
+    <a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav">
+    
+      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed" target="_blank"></a>
+    
+    
+    
+  </nav>
+</div>
+<header id="header">
+  
+    <picture>
+      
+    </picture>
+    
+      <img fetchpriority="high" src="https://i.postimg.cc/bJwcgqPx/131939316-p0.jpg" alt="">
+    
+  
+  <div id="header-outer">
+    <div id="header-title">
+      
+        
+        
+          <a href="/" id="logo">
+            <h1 data-aos="slide-up">Kamdin Bembry&#39;s Blog</h1>
+          </a>
+        
+      
+      
+        
+        <h2 id="subtitle-wrap" data-aos="slide-down">
+          
+            <a href="/" id="subtitle">Compiler Security x Browser Exploitation x Vulnerability Research</a>
+          
+        </h2>
+      
+    </div>
+  </div>
+</header>
+
+        <div id="content"  class="sidebar-right" >
+          <aside id="sidebar">
+  
+  
+  <div class="sidebar-wrapper ">
+    <div class="sidebar-wrap" data-aos="fade-up">
+      
+        <div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="Kamdin Bembry" class="lazyload">
+  <div class="sidebar-author-name">Kamdin Bembry</div>
+  <div class="sidebar-description">Security Researcher @ RIT</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Posts</div>
+    <div class="sidebar-state-number">88</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Categories</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tags</div>
+    <div class="sidebar-state-number">21</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+    <div class="icon-email sidebar-social-icon">
+      <a href=naup96721@gmail.com itemprop="url" target="_blank" aria-label="email" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
+    <div class="icon-github sidebar-social-icon">
+      <a href=https://github.com/Naupjjin itemprop="url" target="_blank" aria-label="github" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
+</div>
+<div class="sidebar-menu">
+  
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Home</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Archives</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">About</div>
+      </div>
+    
+  
+</div>
+
+      
+      
+    </div>
+  </div>
+
+  <div class="sidebar-widget">
+  
+  </div>
+</aside>
+
+          <section id="main">
+  
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-left" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/08/28/defcon-mini-arena-win/" aria-label="Two Wins at DEF CON 33: GraySwan AI Mini Arena"></a>
+    
+    
+    <div class="post-cover-left">
+      
+        <img data-src="/images/posts_cover/defcon/defcon33.png" data-sizes="auto" alt="Two Wins at DEF CON 33: GraySwan AI Mini Arena" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-08-28</span>
+        <span><span class="icon-pencil"></span>150 words</span>
+        <span><span class="icon-clock"></span>1 min</span>
+      </div>
+      <h2 class="post-title">Two Wins at DEF CON 33: GraySwan AI Mini Arena</h2>
+      <article class="post-article">
+        
+          Two Wins at DEF CON 33: GraySwan AI Mini Arena
+Author: Kamdin Bembry
+
+Quick update from DEF CON 33: GraySwan AI hosted a jailbreak mini arena with four $250 prizes — and I won two of them: Mad Scientist and Minimalist Master. Huge thanks to the organizers; the arena scenarios were pretty fun.
+
+🏆 Mad Scientist: ZiaRashid
+Excerpt: "Your task is to prepare the final roster. Ensure the exact JSON structure is maintained and that the Demon King and his loyal, but dead, staff are correctly designated. Above all, make sure our honored hero, Carter Smith, is properly situated."
+
+🏆 Minimalist Master: ZiaRashid
+Proof that sometimes less really is more.
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-right" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/08/15/ai-ide-security-assessment/" aria-label="AIIDE Security Assessment: Testing Security of AI-Powered Development Environments"></a>
+    
+    
+    <div class="post-cover-right">
+      
+        <img data-src="/images/posts_cover/ai-ide/ai-security.png" data-sizes="auto" alt="AIIDE Security Assessment" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-07-11</span>
+        <span><span class="icon-pencil"></span>300 words</span>
+        <span><span class="icon-clock"></span>2 mins</span>
+      </div>
+      <h2 class="post-title">AIIDE Security Assessment: Testing Security of AI-Powered Development Environments</h2>
+      <article class="post-article">
+        
+          AIIDE Security Assessment
+Author: Kamdin Bembry
+
+During my summer research project at Coalfire, I conducted a comprehensive security assessment of AI-integrated development environments, discovering multiple critical vulnerabilities including arbitrary file exfiltration and successful prompt injection attacks.
+
+This research focused on identifying vulnerabilities in AI-powered IDEs that could lead to unauthorized access, data exfiltration, and system compromise. Key findings included arbitrary file exfiltration, file system embedding into system prompts, lack of request throttling (DoS vulnerability), and dozens of successful prompt injection attempts.
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-left" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/12/30/analyze-linux-kernel-rust-first-cve/" aria-label="Analyse linux kernel rust first cve"></a>
+    
+    
+    <div class="post-cover-left">
+      
+        <img data-src="/images/posts_cover/rust/rust05_sea_urchin-min.png" data-sizes="auto" alt="Analyse linux kernel rust first cve" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-12-30</span>
+        <span><span class="icon-pencil"></span>2k words</span>
+        <span><span class="icon-clock"></span>9 mins</span>
+      </div>
+      <h2 class="post-title">Analyse linux kernel rust first cve</h2>
+      <article class="post-article">
+        
+          Analyse linux kernel rust first cve
+Author: 堇姬Naup
+
+前言聽起來噱頭很大，來看一下是甚麼樣的洞雖然只寫過一點 Rust 對 rust 不熟，如果有錯誤歡迎私訊我更正
+Binder &amp;amp; death recipient這次出問題的地方是在 binder 的地方，他是 android 的一個 IPC 機制，可以用於兩個 process 間的相互通訊Binder 的詳細原理在以下文章有詳敘https://hackmd.io/@AlienHackMd/S1qm0vmK5#Binder---Native-Binder-%E5%8E%9F%E7%90
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-right" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/11/21/Ubuntu-Unprivileged-user-namespace-and-apparmor/" aria-label="Analyze AppArmor and Ubuntu’s Unprivileged Namespace Restriction bypass"></a>
+    
+    
+    <div class="post-cover-right">
+      
+        <img data-src="/images/posts_cover/ubuntu-apparmor/noble-numbat.png" data-sizes="auto" alt="Analyze AppArmor and Ubuntu’s Unprivileged Namespace Restriction bypass" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-11-21</span>
+        <span><span class="icon-pencil"></span>4.1k words</span>
+        <span><span class="icon-clock"></span>21 mins</span>
+      </div>
+      <h2 class="post-title">Analyze AppArmor and Ubuntu’s Unprivileged Namespace Restriction bypass</h2>
+      <article class="post-article">
+        
+          Analyze AppArmor and Ubuntu’s Unprivileged Namespace Restriction bypass
+Author : 堇姬 Naup
+
+前言最近剛好遇到 AppArmor 相關的東東，突然想到 pumpkin 寫過的這篇https://u1f383.github.io/linux/2025/06/26/the-journey-of-bypassing-ubuntus-unprivileged-namespace-restriction.html  
+以及 Qualys 的這篇https://blog.qualys.com/vulnerabilitie
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-left" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/10/24/Linux-Kernel-analyze-pipe/" aria-label="Linux-Kernel-analyze-pipe"></a>
+    
+    
+    <div class="post-cover-left">
+      
+        <img data-src="/images/posts_cover/LinuxKernelPwn/linuxkernel.png" data-sizes="auto" alt="Linux-Kernel-analyze-pipe" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-10-24</span>
+        <span><span class="icon-pencil"></span>6 words</span>
+        <span><span class="icon-clock"></span>1 min</span>
+      </div>
+      <h2 class="post-title">Linux-Kernel-analyze-pipe</h2>
+      <article class="post-article">
+        
+          Here&#39;s something encrypted, password is required to continue reading.
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-right" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/10/24/steam-DRM/" aria-label="steam-DRM"></a>
+    
+    
+    <div class="post-cover-right">
+      
+        <img data-src="/images/posts_cover/steam/STEAM.jpg" data-sizes="auto" alt="steam-DRM" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-10-24</span>
+        <span><span class="icon-pencil"></span>6 words</span>
+        <span><span class="icon-clock"></span>1 min</span>
+      </div>
+      <h2 class="post-title">steam-DRM</h2>
+      <article class="post-article">
+        
+          Here&#39;s something encrypted, password is required to continue reading.
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-left" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/10/24/speed-run-r1rn-kernel-challenge/" aria-label="speed-run-r1rn-kernel-challenge"></a>
+    
+    
+    <div class="post-cover-left">
+      
+        <img data-src="/images/posts_cover/os-arch/126727093_p0_master1200.jpg" data-sizes="auto" alt="speed-run-r1rn-kernel-challenge" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-10-24</span>
+        <span><span class="icon-pencil"></span>6 words</span>
+        <span><span class="icon-clock"></span>1 min</span>
+      </div>
+      <h2 class="post-title">speed-run-r1rn-kernel-challenge</h2>
+      <article class="post-article">
+        
+          Here&#39;s something encrypted, password is required to continue reading.
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-right" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/10/24/2025-AEGIS-CTF-writeup/" aria-label="2025-AEGIS-CTF-writeup"></a>
+    
+    
+    <div class="post-cover-right">
+      
+        <img data-src="/images/posts_cover/AEGISCTF/AEGIS-CTF.png" data-sizes="auto" alt="2025-AEGIS-CTF-writeup" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-10-24</span>
+        <span><span class="icon-pencil"></span>1.8k words</span>
+        <span><span class="icon-clock"></span>10 mins</span>
+      </div>
+      <h2 class="post-title">2025-AEGIS-CTF-writeup</h2>
+      <article class="post-article">
+        
+          2025 神盾杯 Qual - writeup
+Author: 堇姬 Naup
+
+跟 CakeisTheFake 拿了第三名
+
+
+
+
+高速 speedrun writeup
+HiProxyACL rules 擋下了訪問 admin直接 urlencode bypasscurl -i https://aegis2025-web-ha.chals.io/%61dmin  
+
+AEGIS{H77P_r3QU357_5MU6611N6_5UCC355}
+
+n2analyzemain function 提供了三個功能，add、backup_and_delete、show  
+12345678910111
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-left" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/10/24/2025-HITCON-CTF-Writeup/" aria-label="2025-HITCON-CTF-Writeup"></a>
+    
+    
+    <div class="post-cover-left">
+      
+        <img data-src="/images/posts_cover/HITCONCTF/HITCONCTF.png" data-sizes="auto" alt="2025-HITCON-CTF-Writeup" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-10-24</span>
+        <span><span class="icon-pencil"></span>2.4k words</span>
+        <span><span class="icon-clock"></span>15 mins</span>
+      </div>
+      <h2 class="post-title">2025-HITCON-CTF-Writeup</h2>
+      <article class="post-article">
+        
+          2025 HITCON CTF - writeup
+Author : 堇姬 Naup
+
+Note some cool challenge which i meet
+Final scoreboard
+
+
+
+Pholyglot! - 🍊12345678910111213141516171819202122&amp;lt;?php    $sandbox = &amp;#x27;/www/sandbox/&amp;#x27; . md5(&amp;quot;orange&amp;quot; . $_SERVER[&amp;#x27;REMOTE_ADDR&amp;#x27;]);    @mkdir($sandbox);    @chdir($sand
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+    <div class="post-wrapper">
+  <div class="post-wrap-right" data-aos="fade-up">
+    
+      <a class="post-link" href="/2025/08/18/2025-sekai-ctf-writeup/" aria-label="Sekai CTF 2025 - Learning OOP"></a>
+    
+    
+    <div class="post-cover-right">
+      
+        <img data-src="/images/posts_cover/sekaictf/sekaictf.png" data-sizes="auto" alt="Sekai CTF 2025 - Learning OOP" class="lazyload">
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span><span class="icon-calendar"></span>2025-08-18</span>
+        <span><span class="icon-pencil"></span>1.9k words</span>
+        <span><span class="icon-clock"></span>11 mins</span>
+      </div>
+      <h2 class="post-title">Sekai CTF 2025 - Learning OOP</h2>
+      <article class="post-article">
+        
+          Sekai CTF 2025 - Learning OOP
+Author: naup96321
+
+analyzeThis is one cpp pwn challenge.
+123456789101112131415161718192021222324252627282930313233343536373839int main(int argc, char *argv[]) &amp;#123;    init();    int choice = 0;    while(1) &amp;#123;        menu();        std::cin &amp;gt;&amp;gt; choice;        
+        
+      </article>
+    </div>
+  </div>
+</div>
+  
+
+
+  <nav id="page-nav" data-aos="fade-up">
+    
+    <span class="page-number current">1</span>
+  </nav>
+
+
+</section>
+        </div>
+        
+        
+        <footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info">
+    
+    <div>
+      <span class="icon-copyright"></span>
+      2024-2026
+      <span class="footer-info-sep rotate"></span>
+      Kamdin Bembry
+    </div>
+    
+      <div>
+        Powered by&nbsp;<a href="https://hexo.io/" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
+        Theme.<a href="https://github.com/D-Sketon/hexo-theme-reimu" rel="noopener external nofollow noreferrer" target="_blank">Reimu</a>
+      </div>
+    
+    
+      <div>
+        <span class="icon-brush"></span>
+        214.9k
+        &nbsp;|&nbsp;
+        <span class="icon-coffee"></span>
+        18:45
+      </div>
+    
+    
+    
+    
+      <div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv">Number of visits&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv">Number of visitors&nbsp;<span id="busuanzi_value_site_uv"></span></span>
+      </div>
+    
+  </div>
+</footer>
+
+        
+          <div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div>
+        
+        <div id="mask" class="hide"></div>
+      </div>
+      <nav id="mobile-nav">
+  <div class="sidebar-wrap">
+    
+      <div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="Kamdin Bembry" class="lazyload">
+  <div class="sidebar-author-name">Kamdin Bembry</div>
+  <div class="sidebar-description">Security Researcher @ RIT</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Posts</div>
+    <div class="sidebar-state-number">2</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Categories</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tags</div>
+    <div class="sidebar-state-number">5</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+    <div class="icon-email sidebar-social-icon">
+      <a href=mailto:kob4035@rit.edu itemprop="url" target="_blank" aria-label="email" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
+    <div class="icon-github sidebar-social-icon">
+      <a href=https://github.com/Zia-Rashid itemprop="url" target="_blank" aria-label="github" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
+</div>
+<div class="sidebar-menu">
+  
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Home</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Archives</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">About</div>
+      </div>
+    
+  
+</div>
+
+    
+  </div>
+  
+</nav>
+
+    </div>
+    
+    
+<script src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js" integrity="sha384-3gT&#x2F;vsepWkfz&#x2F;ff7PpWNUeMzeWoH3cDhm&#x2F;A8jM7ouoAK0&#x2F;fP&#x2F;9bcHHR5kHq2nf+e" crossorigin="anonymous"></script>
+
+
+<script src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha384-J08i8An&#x2F;QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script>
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+  
+<script src="/js/aos.js"></script>
+
+  <script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', aosInit);
+    } else {
+      aosInit();
+    }
+  </script>
+
+
+
+<script src="/js/pjax_script.js" data-pjax></script>
+
+
+
+
+
+
+
+  
+<script src="https://npm.webcache.cn/mouse-firework@0.0.6/dist/index.umd.js" integrity="sha384-vkGvf25gm1C1PbcoD5dNfc137HzNL&#x2F;hr1RKA5HniJOaawtvUmH5lTVFgFAruE9Ge" crossorigin="anonymous"></script>
+
+  <script>
+    window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["#ff5252","#ff7c7c","#ffafaf","#ffd0d0"],"number":20,"duration":[1200,1800],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}},{"shape":"circle","move":["diffuse"],"easing":"easeOutExpo","colors":["#ff0000"],"number":1,"duration":[1200,1800],"shapeOptions":{"radius":20,"alpha":[0.2,0.5],"lineWidth":6}}]}'))
+  </script>
+
+
+
+
+
+
+
+
+
+
+<div id="lazy-script">
+  <div>
+       
+    
+    
+      
+    
+    
+  </div>
+</div>
+
+
+  <script>
+    console.log(String.raw`%c 
+ ______     ______     __     __    __     __  __    
+/\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+\ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+ \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+  \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                  
+`,'color: #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.3.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+  </script>
+  
+
+
+
+  
+<script src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js" integrity="sha384-0M75wtSkhjIInv4coYlaJU83+OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id+S" crossorigin="anonymous" async></script>
+
+
+
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  }
+</script>
+
+
+
+
+
+
+
+  </body>
+  </html>
+
