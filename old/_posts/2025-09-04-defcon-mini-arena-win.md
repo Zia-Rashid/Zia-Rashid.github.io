@@ -1,6 +1,7 @@
 ---
 title: 'Two Wins at DEF CON 33: GraySwan AI Mini Arena'
 date: 2025-08-28
+header_image: '/images/defcon33.png'
 excerpt: "I took home two titles at GraySwan AI's DEF CON 33 Mini Arena: Mad Scientist and Minimalist Master."
 tags:
   - ctf

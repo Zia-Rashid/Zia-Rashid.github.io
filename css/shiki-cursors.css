@@ -1,0 +1,60 @@
+/* Shiki Ryougi Cursors */
+
+/* CSS variables will be updated by JavaScript for animated cursors */
+:root {
+  --cursor-default: url("/images/cursor/normalselector_oyanko_frame00.png"), auto;
+  --cursor-pointer: url("/images/cursor/linkselector_oyanko_frame00.png"), pointer;
+  --cursor-text: url("/images/cursor/helpselector_oyanko_frame00.png"), text;
+  --cursor-move: url("/images/cursor/move_oyanko.cur"), move;
+  --cursor-not-allowed: url("/images/cursor/unavailable_oyanko.cur"), not-allowed;
+  --cursor-ns-resize: url("/images/cursor/verticalresize_oyanko.cur"), ns-resize;
+  --cursor-ew-resize: url("/images/cursor/horizontalresize_oyako.cur"), ew-resize;
+  --cursor-nwse-resize: url("/images/cursor/diagonalresize1_oyako.cur"), nwse-resize;
+  --cursor-nesw-resize: url("/images/cursor/diagonalresize2_oyanko.cur"), nesw-resize;
+}
+
+/* Apply cursors (these will be animated by JavaScript) */
+html {
+  cursor: var(--cursor-default);
+}
+
+a, button, .clickable,
+.main-nav-icon,
+.sidebar-top,
+.code-copy,
+.code-fullscreen,
+.code-expand {
+  cursor: var(--cursor-pointer) !important;
+}
+
+input, textarea,
+.site-search input,
+#main input,
+#main textarea {
+  cursor: var(--cursor-text) !important;
+}
+
+/* Static cursor utilities */
+.cursor-move {
+  cursor: var(--cursor-move) !important;
+}
+
+.cursor-not-allowed {
+  cursor: var(--cursor-not-allowed) !important;
+}
+
+.cursor-ns-resize {
+  cursor: var(--cursor-ns-resize) !important;
+}
+
+.cursor-ew-resize {
+  cursor: var(--cursor-ew-resize) !important;
+}
+
+.cursor-nwse-resize {
+  cursor: var(--cursor-nwse-resize) !important;
+}
+
+.cursor-nesw-resize {
+  cursor: var(--cursor-nesw-resize) !important;
+}

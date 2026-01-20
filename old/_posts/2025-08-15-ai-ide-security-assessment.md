@@ -1,6 +1,7 @@
 ---
 title: 'AIIDE Security Assessment: Testing Security of AI-Powered Development Environments'
 date: 2025-07-11
+header_image: '/images/aiide.jpg'
 excerpt: "During my summer research project at Coalfire, I conducted a comprehensive security assessment of AI-integrated development environments, discovering multiple critical vulnerabilities including arbitrary file exfiltration and successful prompt injection attacks."
 tags:
   - security research
