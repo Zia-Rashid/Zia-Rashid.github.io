@@ -354,10 +354,24 @@ body [data-aos='zoom-in'] {
   content: "\e630";
 }
 .icon-github:before {
-  content: "\e619";
+  font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free";
+  content: "\f09b";
+  font-weight: 400;
 }
 .icon-email:before {
-  content: "\e63c";
+  font-family: "Font Awesome 6 Free";
+  content: "\f0e0";
+  font-weight: 900;
+}
+.icon-twitter:before {
+  font-family: "Font Awesome 6 Brands";
+  content: "\f099";
+  font-weight: 400;
+}
+.icon-linkedin:before {
+  font-family: "Font Awesome 6 Brands";
+  content: "\f08c";
+  font-weight: 400;
 }
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: "iconfont";
@@ -2373,9 +2387,10 @@ pre .javascript .function {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 36px;
-  height: 25px;
-  font: 20px "iconfont";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
   transition: transform 0.2s;
   will-change: transform;
 }
@@ -2402,6 +2417,11 @@ pre .javascript .function {
 }
 [data-theme="dark"] .icon-linkedin {
   color: #0077B5;
+}
+.sidebar-social-icon:before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sidebar-menu-icon,
 .sidebar-menu-link {
