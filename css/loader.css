@@ -28,7 +28,11 @@
 }
 #loader .spinner-box .loading-taichi {
   opacity: 0.8;
-  animation: rotate-all 2s linear infinite;
+}
+#loader .spinner-box .loading-taichi img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
 }
 #loader .spinner-box .loading-word {
   position: absolute;
@@ -47,9 +51,4 @@
 #loader.loading .spinner-box {
   opacity: 0;
   visibility: hidden;
-}
-@keyframes rotate-all {
-  100% {
-    transform: rotate(360deg);
-  }
 }

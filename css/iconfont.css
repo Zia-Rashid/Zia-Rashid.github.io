@@ -121,6 +121,16 @@
 .icon-email:before {
   content: "\e63c";
 }
+.icon-twitter:before {
+  font-family: "Font Awesome 6 Brands";
+  content: "\f099";
+  font-weight: 400;
+}
+.icon-linkedin:before {
+  font-family: "Font Awesome 6 Brands";
+  content: "\f08c";
+  font-weight: 400;
+}
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: "iconfont";
   content: "\e633";

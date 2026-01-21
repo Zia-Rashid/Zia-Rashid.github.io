@@ -2391,6 +2391,18 @@ pre .javascript .function {
 [data-theme="dark"] .icon-github {
   color: #bc88ff;
 }
+.icon-twitter {
+  color: #1DA1F2;
+}
+[data-theme="dark"] .icon-twitter {
+  color: #1DA1F2;
+}
+.icon-linkedin {
+  color: #0077B5;
+}
+[data-theme="dark"] .icon-linkedin {
+  color: #0077B5;
+}
 .sidebar-menu-icon,
 .sidebar-menu-link {
   color: var(--color-link);
